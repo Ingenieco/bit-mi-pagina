@@ -133,7 +133,7 @@ h6 {
 }
 
 .intro figure img {
-  border-radius: 100%; /*tambén puede ser 1rem para bordear suavemente los bordes sin llegar al cículo*/
+  border-radius: 50%; /*tambén puede ser 1rem para bordear suavemente los bordes sin llegar al cículo*/
 }
 
 .acerca-de {
@@ -144,4 +144,6 @@ h6 {
   text-align: justify;
 }
 
-.acerca-de
+img {
+  width: 50%; /*redimensionando la imagen*/
+}
